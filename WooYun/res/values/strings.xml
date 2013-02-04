@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WooYun</string>
+    <string name="menu_settings">About</string>
+    <string name="domain_url">http://api.wooyun.org/domain/%1$s/limit/10</string>
+    <string name="item_title">漏洞标题:%1$s</string>
+    <string name="item_date">提交日期:%1$s</string>
+    <string name="item_link">详细信息:%1$s</string>
+
+</resources>
