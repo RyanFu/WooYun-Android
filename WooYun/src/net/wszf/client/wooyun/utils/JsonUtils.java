@@ -19,14 +19,7 @@ import org.json.JSONException;
 
 import android.util.Log;
 
-/**
- * json获取数据
- * 
- * @author pxs
- * @project GB_Hui
- * @date 2012-10-12上午10:38:49
- * @version 1.0
- */
+
 public class JsonUtils
 	{
 		private static final String TAG = "JsonUtils";
