@@ -7,7 +7,6 @@ import java.util.List;
 
 import net.wszf.client.wooyun.adapter.CommonAdapter;
 import net.wszf.client.wooyun.domain.BugInfoDomain;
-import net.wszf.client.wooyun.fragment.LatestSubmitListActivity;
 import net.wszf.client.wooyun.utils.ApiUtils;
 import net.wszf.client.wooyun.utils.CommonUtils;
 import net.wszf.client.wooyun.utils.FiledMark;
@@ -37,7 +36,7 @@ import android.widget.AdapterView.OnItemClickListener;
 public class MainActivity extends Activity
 	{
 		private ListView listView;
-		public static LatestSubmitListActivity latestSubmitListActivity=null;
+//		public static LatestSubmitListActivity latestSubmitListActivity=null;
 		private CommonAdapter adapter;
 		private List<BugInfoDomain> list=new ArrayList<BugInfoDomain>();
 		private ProgressDialog dialog;
@@ -113,14 +112,14 @@ public class MainActivity extends Activity
 				}
 				//new Thread(infoRunnable).start();
 			}
-			public static LatestSubmitListActivity getInstance()
-				{
-					if(latestSubmitListActivity==null)
-						{
-						latestSubmitListActivity=new LatestSubmitListActivity();	
-						}
-					return latestSubmitListActivity;
-				}
+//			public static LatestSubmitListActivity getInstance()
+//				{
+//					if(latestSubmitListActivity==null)
+//						{
+//						latestSubmitListActivity=new LatestSubmitListActivity();	
+//						}
+//					return latestSubmitListActivity;
+//				}
 			@Override
 			public void onPause() {
 				// TODO Auto-generated method stub
