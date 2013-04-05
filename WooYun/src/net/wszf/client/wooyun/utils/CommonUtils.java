@@ -4,6 +4,8 @@ import java.text.SimpleDateFormat;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.text.Html;
+import android.text.Spanned;
 
 public class CommonUtils
 	{
@@ -124,6 +126,10 @@ public class CommonUtils
 			{
 				SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"); 
 				return df.format(time*1000l); 
+			}
+		public static Spanned getStringToHtml(Context context, int format, Object... str)
+			{
+				return Html.fromHtml(String.format(context.getText(format).toString(), str));
 			}
 		/**
 		 * 通用loading

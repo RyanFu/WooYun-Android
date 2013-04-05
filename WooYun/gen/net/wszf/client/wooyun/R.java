@@ -366,14 +366,20 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int default_underline_indicator_fade_length=0x7f070004;
     }
     public static final class item {
+        public static final int comment=0x7f0d0004;
+        public static final int corp_harmlevel=0x7f0d0006;
+        public static final int corp_rank=0x7f0d0007;
         public static final int date=0x7f0d0001;
-        public static final int link=0x7f0d0002;
+        public static final int link=0x7f0d0005;
+        public static final int status=0x7f0d0003;
         public static final int title=0x7f0d0000;
+        public static final int user_harmlevel=0x7f0d0002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int item=0x7f030001;
-        public static final int simple_titles=0x7f030002;
+        public static final int new_item=0x7f030001;
+        public static final int public_item=0x7f030002;
+        public static final int simple_titles=0x7f030003;
     }
     public static final class main {
         public static final int listView=0x7f0c0000;
@@ -382,16 +388,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int listView3=0x7f0c0003;
     }
     public static final class menu {
-        public static final int about=0x7f0b0001;
+        public static final int about=0x7f0b0005;
         public static final int activity_main=0x7f0b0000;
+        public static final int new_confirm=0x7f0b0003;
+        public static final int new_public=0x7f0b0002;
+        public static final int new_submit=0x7f0b0001;
+        public static final int new_unclaim=0x7f0b0004;
     }
     public static final class string {
         public static final int app_name=0x7f0a0000;
         public static final int domain_url=0x7f0a0002;
+        public static final int item_comment=0x7f0a000a;
+        public static final int item_corp_harmlevel=0x7f0a0008;
+        public static final int item_corp_rank=0x7f0a0009;
         public static final int item_date=0x7f0a0004;
+        public static final int item_harmlevel=0x7f0a0007;
         public static final int item_link=0x7f0a0005;
+        public static final int item_status=0x7f0a0006;
         public static final int item_title=0x7f0a0003;
-        public static final int menu_settings=0x7f0a0001;
+        public static final int menu_about=0x7f0a0001;
+        public static final int menu_new_confirm=0x7f0a000d;
+        public static final int menu_new_public=0x7f0a000c;
+        public static final int menu_new_submit=0x7f0a000b;
+        public static final int menu_new_unclaim=0x7f0a000e;
     }
     public static final class style {
         /** 

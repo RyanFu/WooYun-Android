@@ -21,7 +21,7 @@ public class ApiUtils
 				for(int i=0;i<jsonArray.length();i++)
 					{
 						JSONObject info=jsonArray.getJSONObject(i);
-						list.add(new BugInfoDomain(info.getString("title"), CommonUtils.getTime(Long.valueOf(info.getString("timestamp"))), info.getString("status"), info.getString("link")));
+						list.add(new BugInfoDomain(info.getString("title"), CommonUtils.getTime(Long.valueOf(info.getString("timestamp"))), info.getString("status"), info.getString("link"), info.getString("user_harmlevel"), info.getString("corp_harmlevel"), info.getString("corp_rank"), info.getString("comment")));
 					}
 				return list;
 			}
